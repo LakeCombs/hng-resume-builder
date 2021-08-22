@@ -1,0 +1,161 @@
+.ResumeContainer {
+  width: 100%;
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ResumeContainer > h2 {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.ResumeContent {
+  width: 90%;
+  height: auto;
+  outline: 1px solid rgb(208, 208, 208);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  width: 30%;
+  background-color: rgb(234, 234, 234);
+  text-align: start;
+}
+
+.name {
+  margin-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.name > h1 {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.Education {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.leftSideHead {
+  font-weight: 300;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.EducationDetails {
+  margin-top: 30px;
+}
+
+.EducationDetails > h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.EducationDetails > h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.EducationDetails > h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.Skillcollection {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.Skillcollection > h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.rightSide {
+  width: 65%;
+  text-align: start;
+}
+
+.ProfessionalSummay > p {
+  font-weight: 300;
+}
+
+.contactInfo {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contactInfo > p {
+  font-weight: 300;
+}
+
+.Experience {
+  margin-top: 20px;
+}
+.Experience > h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.ExperinceSample {
+  margin-top: 20px;
+}
+
+.ExperinceSample > h3 {
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.classnameandTime {
+  display: flex;
+  align-items: flex-end;
+}
+
+.classnameandTime > p {
+  font-weight: 350px;
+  font-size: 15px;
+}
+
+.classnameandTime > span {
+  font-weight: 350px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.jobResponsibily {
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.expplist {
+  margin-top: 10px;
+}
+
+.expplist > li {
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.Educationcontainer {
+  margin-top: 10px;
+}

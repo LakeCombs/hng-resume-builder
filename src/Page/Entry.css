@@ -1,0 +1,101 @@
+.EntryForm {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EntryForm > h2 {
+  margin-top: 40px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.forming {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classInput {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.classInput > label {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.classInput > input {
+  height: 30px;
+  padding-left: 10px;
+  font-weight: 200;
+  border: 2px solid gray;
+}
+
+.classInput > input:hover {
+  border: 2px solid blue;
+}
+
+.classInput > textarea {
+  height: 50px;
+  padding-left: 10px;
+  font-weight: 200;
+  border: 2px solid gray;
+}
+
+.classInput > textarea:hover {
+  border: 2px solid blue;
+}
+
+.classInputWorkExperience {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.classInputWorkExperience > label {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.classInputWorkExperience > input {
+  height: 30px;
+  padding-left: 10px;
+  font-weight: 200;
+  border: 2px solid gray;
+  margin-bottom: 10px;
+}
+
+.classInputWorkExperience > input:hover {
+  border: 2px solid blue;
+}
+
+.classInputWorkExperience > textarea {
+  height: 50px;
+  padding-left: 10px;
+  font-weight: 200;
+  border: 2px solid gray;
+  margin-bottom: 10px;
+}
+
+.classInputWorkExperience > textarea:hover {
+  border: 2px solid blue;
+}
+
+.Button {
+  width: 70%;
+  height: 50px;
+  background-color: blue;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  outline: none;
+  border: 2px solid gray;
+}
